@@ -115,7 +115,7 @@ function gotData(data){
   var thiscounter=0;
   for(var j=0;j<allboards.length;j++){
     var datenumbers=parseDateString(allboards[j][3]);
-    if(datenumbers[2]>=24&&datenumbers[0]>=7){
+    if(datenumbers[2]>=25){
       text(allboards[j][2],700,100+50*thiscounter);
       text(allboards[j][1],900,100+50*thiscounter);
       text(allboards[j][3],1100,100+50*thiscounter);
